@@ -467,3 +467,247 @@ width:8px;
 background:#334155;
 border-radius:20px;
 }
+/* =========================
+MOBILE FIX
+DODAJ NA SAM DÓŁ style.css
+========================= */
+
+@media (max-width:768px){
+
+body{
+padding:12px;
+overflow-x:hidden;
+}
+
+/* =========================
+HEADER
+========================= */
+
+.topHeader{
+flex-direction:column;
+align-items:center;
+text-align:center;
+padding:18px;
+gap:14px;
+border-radius:22px;
+}
+
+.mainLogo{
+width:160px;
+max-width:100%;
+}
+
+.headerText{
+width:100%;
+}
+
+.headerText h1{
+font-size:42px;
+line-height:1.05;
+word-break:break-word;
+}
+
+.headerText p{
+font-size:26px;
+margin-top:10px;
+}
+
+/* =========================
+NOTIFICATIONS
+========================= */
+
+.notificationsBar{
+grid-template-columns:1fr;
+gap:14px;
+}
+
+.notificationCard{
+padding:16px;
+border-radius:18px;
+}
+
+/* =========================
+TOP BAR
+========================= */
+
+.topBar{
+display:grid;
+grid-template-columns:
+repeat(2,1fr);
+gap:10px;
+}
+
+.topBtn{
+width:100%;
+padding:14px 10px;
+font-size:14px;
+border-radius:14px;
+}
+
+/* =========================
+SEARCH
+========================= */
+
+.searchInput{
+padding:14px;
+font-size:15px;
+border-radius:14px;
+}
+
+/* =========================
+MONTHS
+========================= */
+
+.monthTabs{
+gap:8px;
+padding-bottom:6px;
+}
+
+.monthBtn{
+padding:12px 16px;
+font-size:13px;
+border-radius:12px;
+}
+
+/* =========================
+DASHBOARD
+========================= */
+
+.dashboard{
+grid-template-columns:
+repeat(2,1fr);
+gap:12px;
+}
+
+.dashCard{
+min-height:130px;
+padding:16px;
+border-radius:18px;
+}
+
+.dashCard h3{
+font-size:15px;
+margin-bottom:12px;
+}
+
+.dashValue{
+font-size:28px;
+}
+
+/* =========================
+GRID
+========================= */
+
+.grid{
+grid-template-columns:1fr;
+gap:18px;
+}
+
+/* =========================
+DAY BOX
+========================= */
+
+.dayBox{
+padding:14px;
+border-radius:22px;
+}
+
+.dayBox h2{
+font-size:34px;
+margin-bottom:14px;
+}
+
+/* =========================
+BUTTONS
+========================= */
+
+.addVisitBtn{
+padding:14px;
+font-size:16px;
+border-radius:14px;
+}
+
+/* =========================
+VISIT CARD
+========================= */
+
+.visitCard{
+padding:14px;
+border-radius:20px;
+gap:12px;
+}
+
+.visitCard input,
+.visitCard select,
+.visitCard textarea{
+padding:14px;
+font-size:15px;
+border-radius:14px;
+}
+
+/* =========================
+SERVICES
+========================= */
+
+.servicesAccordion summary{
+padding:14px;
+font-size:15px;
+}
+
+.servicesBox{
+padding:14px;
+gap:12px;
+}
+
+.serviceItem{
+font-size:14px;
+}
+
+/* =========================
+TOTALS
+========================= */
+
+.totalBox,
+.leftBox{
+padding:14px;
+font-size:16px;
+border-radius:14px;
+}
+
+/* =========================
+BUTTON ROW
+========================= */
+
+.buttonsRow{
+gap:10px;
+}
+
+.printBtn{
+padding:14px;
+font-size:16px;
+border-radius:14px;
+}
+
+.deleteBtn{
+width:50px;
+min-width:50px;
+height:50px;
+font-size:20px;
+border-radius:14px;
+}
+
+/* =========================
+PHOTOS
+========================= */
+
+.photoPreview{
+gap:10px;
+}
+
+.previewImage{
+width:85px;
+height:85px;
+border-radius:12px;
+}
+
+}
