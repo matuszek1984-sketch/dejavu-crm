@@ -1,0 +1,87 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+
+<html lang="pl">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta
+name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>
+Deja Vu Auto Detailing CRM
+</title>
+
+<link
+rel="stylesheet"
+href="style.css">
+
+<link
+rel="manifest"
+href="manifest.json">
+
+<meta
+name="theme-color"
+content="#0f172a">
+
+</head>
+
+<body>
+
+<div id="app">
+
+<div class="topHeader">
+
+<img
+src="logo.png"
+class="mainLogo">
+
+<div class="headerText">
+
+<h1>
+Deja Vu Auto Detailing
+</h1>
+
+<p>
+CRM 2026
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="cars.js"></script>
+<script src="services.js"></script>
+
+<script
+type="module"
+src="main.js"></script>
+
+<script>
+
+if('serviceWorker' in navigator){
+
+window.addEventListener(
+'load',
+()=>{
+
+navigator.serviceWorker.register(
+'./sw.js'
+);
+
+}
+);
+
+}
+
+</script>
+
+</body>
+
+</html>
